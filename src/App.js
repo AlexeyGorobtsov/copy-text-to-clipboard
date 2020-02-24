@@ -1,11 +1,13 @@
 import React from "react";
+import {CopyText} from "./components/copy-text";
+
 import "./styles.css";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <h1>Copy-icon</h1>
+      <CopyText/>
     </div>
   );
 }
